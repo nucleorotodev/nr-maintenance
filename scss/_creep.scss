@@ -1,0 +1,28 @@
+// Estilos creepy server front-end
+
+@import url('https://fonts.googleapis.com/css?family=Nosifer|VT323');
+
+
+body {
+
+  height: 100vh;
+
+    background-color: #222 ;
+    font-family: 'VT323', monospace;
+    color: whitesmoke;
+
+  & h1 {
+
+    font-family: 'Nosifer', cursive;
+    color: gray;
+}
+
+}
+
+div {
+  height: 100%;
+}
+
+.h-a {
+  height: auto;
+}
