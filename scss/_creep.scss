@@ -1,19 +1,24 @@
 // Estilos creepy server front-end
 
-@import url('https://fonts.googleapis.com/css?family=Nosifer|VT323');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+//
+$verde-roto: #B2C750;
+//
 
 body {
 
   height: 100vh;
 
-    background-color: #222 ;
-    font-family: 'VT323', monospace;
-    color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  color: whitesmoke;
+  background: linear-gradient(to bottom, $verde-roto, #0073e7);
+  background: -moz-linear-gradient(to bottom, $verde-roto, #0073e7); /* FF3.6+ */
+  background: -webkit-linear-gradient(to bottom, $verde-roto, #0073e7); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(to bottom, $verde-roto, #0073e7); /* Opera11.10+ */
+  background: -ms-linear-gradient(to bottom, $verde-roto, #0073e7); /* IE10+ */
+  background: -webkit-gradient(linear, bottom top, top bottom, color-stop(0%,$verde-roto), color-stop(100%,#0073e7)); /* Chrome,Safari4+ */
 
   & h1 {
-
-    font-family: 'Nosifer', cursive;
     color: gray;
 }
 

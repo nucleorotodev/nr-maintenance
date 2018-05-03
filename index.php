@@ -11,22 +11,16 @@
   <div class="grid-container">
     <div class="row grid-padding-y align-middle">
       <div class="background fixed z-1"></div>
-      <?php
 
-      // for ($i=0; $i <2 ; $i++):
-
-        ?>
       <div class="columns cell h-a text-center">
-          <h1><small>Welcome to Creepy Server</small></h1>
+          <h1><small>Nucleoroto</small></h1>
+          <h2><small>Estamos en reconstrucción regresa pronto</small></h2>
+          <h3><small>Proximamente NR15 compilado</small></h3>
 
         <p class="grid-x grid-padding-y grid-padding-x texto-init"></p>
 
 
       </div>
-      <?php
-    // endfor;
-
-    ?>
 
     </div>
 
