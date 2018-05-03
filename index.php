@@ -3,23 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="keywords" content="Nuceoroto musica music download releases mixtapes booking sound artists design diseno breakbeat code livecoding algorave mutant breakz">
+  <meta name="description" content="Colectivo de música y diseño desde 2006 en Ciudad de México">
+  <meta name="robots" content="INDEX,FOLLOW">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nucleoroto</title>
+  <link rel="icon" href="img/nr-fav.png" type="image/x-icon">
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+  <div class="background fixed z-1"></div>
   <div class="grid-container">
-    <div class="row grid-padding-y align-middle">
-      <div class="background fixed z-1"></div>
+    <div class="grid-x grid-padding-x grid-padding-y align-middle">
 
-      <div class="columns cell h-a text-center">
-          <h1><small>Nucleoroto</small></h1>
-          <h2><small>Estamos en reconstrucción regresa pronto</small></h2>
-          <h3><small>Proximamente NR15 compilado</small></h3>
-
-        <p class="grid-x grid-padding-y grid-padding-x texto-init"></p>
-
-
+      <div class="cell h-a text-center align-center">
+        <center>
+          <img src="img/nr-logo-2018.png" alt="Nucleoroto logo 2018">
+          <h1 class="text-center">Nucleoroto</h1>
+          <h2 class="text-center">Estamos en reconstrucción regresa pronto</h2>
+          <!-- <h3>Proximamente NR15 compilado</h3> -->
+          <!-- <p class="grid-x grid-padding-y grid-padding-x texto-init"></p> -->
+        </center>
       </div>
 
     </div>

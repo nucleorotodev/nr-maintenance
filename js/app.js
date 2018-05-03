@@ -14,18 +14,23 @@ $(document).ready(function () {
 				i = 0
 				t = t - i
 			} else {
-				i = i + 1
-				texto_init()
+				i++
+				setTimeout(function() {
+					texto_init()
+				},250)
 				t = t - i
 			}
 		},t)
-	},t+5000)
+
+	},t)
 
 });
 
 function texto_init() {
 
-	var titulo = $('h1 small').text()
+	// e++
+	// console.log(e)
+	var titulo = $('h2').text()
 
 	var a = titulo.split(" ")
 
@@ -33,10 +38,7 @@ function texto_init() {
 
 	var b = a.join(" ")
 
-	setTimeout(function() {
-		$('h1 small').html(b)
-	},450)
-
+	$('h2').html(b)
 
 }
 
