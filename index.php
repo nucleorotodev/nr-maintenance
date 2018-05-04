@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <div class="background fixed z-1"></div>
+  <!-- <div class="background fixed z-1"></div> -->
   <div class="grid-container">
     <div class="grid-x grid-padding-x grid-padding-y align-middle">
 
@@ -20,7 +20,7 @@
         <center>
           <img src="img/nr-logo-2018.png" alt="Nucleoroto logo 2018">
           <h1 class="text-center">Nucleoroto</h1>
-          <h2 class="text-center">Estamos en reconstrucción regresa pronto</h2>
+          <h2 class="text-center">Estamos En Desconstrucción Regresa Pronto</h2>
           <!-- <h3>Proximamente NR15 compilado</h3> -->
           <!-- <p class="grid-x grid-padding-y grid-padding-x texto-init"></p> -->
         </center>
